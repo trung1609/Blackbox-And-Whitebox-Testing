@@ -85,7 +85,6 @@ class MathUtilsTest {
             assertEquals(2.0, roots[0], 1e-9);
             assertEquals(3.0, roots[1], 1e-9);
         }
-
         @Test
         @DisplayName("Nghiệm kép: x² - 4x + 4 = 0 => {2}")
         void doubleRoot() {
